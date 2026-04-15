@@ -1,0 +1,4 @@
+Load system from everything-claude-code
+Load context from system_prompts/career_coach.md
+
+Start today's full learning session
