@@ -1,0 +1,3 @@
+[submodule "career/career-ops"]
+	path = career/career-ops
+	url = https://github.com/santifer/career-ops.git
