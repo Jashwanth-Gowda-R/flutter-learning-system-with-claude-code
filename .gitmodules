@@ -1,3 +1,6 @@
 [submodule "career/career-ops"]
 	path = career/career-ops
 	url = https://github.com/santifer/career-ops.git
+[submodule "everything-claude-code"]
+	path = everything-claude-code
+	url = https://github.com/affaan-m/everything-claude-code.git
