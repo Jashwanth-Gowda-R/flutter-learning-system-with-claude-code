@@ -4,24 +4,24 @@
 
 ## Current State
 
-- **Session:** 0 (not started)
-- **Week:** 0
-- **Phase:** Not started
+- **Session:** 1 (in progress — DSA done, Flutter pending)
+- **Week:** 1
+- **Phase:** 1 — Restore & Build
 
 ## Track Status
 
 | Track | Last Completed | Next Up |
 |-------|---------------|---------|
-| DSA | — | Two Sum (Arrays & Hashing) |
-| Flutter | — | Dart: type system + null safety |
-| Project | — | Polish dynamic_ui_renderer README |
+| DSA | Two Sum (Arrays & Hashing) — Done | Contains Duplicate |
+| Flutter | — | Dart: type system + null safety ⬅ RESUME HERE |
+| Project | — | Polish dynamic_ui_renderer README (Session 5) |
 | System Design | Not started yet | — |
 | Interview Mocks | Not started yet | — |
 | Behavioral Stories | Not started yet | — |
 
 ## Carried Forward
 
-_Nothing yet — clean start._
+- Flutter: Dart type system + null safety (mid-session break — resume evening)
 
 ## Weekly Application Count (starts Session 61)
 
