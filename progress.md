@@ -4,7 +4,7 @@
 
 ## Current State
 
-- **Session:** 2 (next)
+- **Session:** 3 (next)
 - **Week:** 1
 - **Phase:** 1 — Restore & Build
 
@@ -12,8 +12,8 @@
 
 | Track | Last Completed | Next Up |
 |-------|---------------|---------|
-| DSA | Two Sum (Arrays & Hashing) — Done | Contains Duplicate |
-| Flutter | Dart: type system + null safety — Done | Dart: const vs final vs var |
+| DSA | Contains Duplicate (Arrays & Hashing) — Done | Valid Anagram |
+| Flutter | Dart: const vs final vs var — Done | Dart: collections (List, Map, Set, generics) |
 | Project | — | Polish dynamic_ui_renderer README (Session 5) |
 | System Design | Not started yet | — |
 | Interview Mocks | Not started yet | — |
@@ -21,13 +21,14 @@
 
 ## Carried Forward
 
-- Clean start — Session 1 fully complete
+- Clean start — Session 2 fully complete
 
 ## NO-AI Zone Log
 
 | Session | Topic | Score | Key Miss |
 |---------|-------|-------|----------|
 | 1 | formatUserGreeting (null safety) | 7/10 | Wrong string literal ("Hey" vs "Hello"); `late` misused on local vars |
+| 2 | ThemeConfig (const constructor) | 10/10 | None — clean execution |
 
 ## Weekly Application Count (starts Session 61)
 
@@ -37,5 +38,7 @@
 
 ## Notes
 
-Session 1 complete. Flutter file saved at flutter/dart/type-system-null-safety.md.
-Key concept to reinforce: `late` is for class fields only, not local variables.
+Session 2 complete. DSA: Contains Duplicate saved at dsa/arrays-hashing/contains-duplicate.md.
+Flutter: const/final/var saved at flutter/dart/const-final-var.md.
+NO-AI: 10/10 — corrections from Session 1 applied immediately.
+Key concept reinforced: identical() not hashCode for object identity. const = deep freeze + canonicalization.
