@@ -1,4 +1,4 @@
 Load system from everything-claude-code
 Load context from system_prompts/career_coach.md
 
-Start today's full learning session
+Start today's full learning, start session 3 today is weekday and claude --resume d48c495d-483a-4c10-ab60-1930923ea0f2

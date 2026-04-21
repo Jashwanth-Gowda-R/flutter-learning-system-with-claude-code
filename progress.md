@@ -4,7 +4,7 @@
 
 ## Current State
 
-- **Session:** 3 (next)
+- **Session:** 4 (next)
 - **Week:** 1
 - **Phase:** 1 — Restore & Build
 
@@ -12,8 +12,8 @@
 
 | Track | Last Completed | Next Up |
 |-------|---------------|---------|
-| DSA | Contains Duplicate (Arrays & Hashing) — Done | Valid Anagram |
-| Flutter | Dart: const vs final vs var — Done | Dart: collections (List, Map, Set, generics) |
+| DSA | Valid Anagram (Arrays & Hashing) — Done | Group Anagrams |
+| Flutter | Dart: collections (List, Map, Set, generics) — Done | Dart: functions, closures, typedefs |
 | Project | — | Polish dynamic_ui_renderer README (Session 5) |
 | System Design | Not started yet | — |
 | Interview Mocks | Not started yet | — |
@@ -21,7 +21,7 @@
 
 ## Carried Forward
 
-- Clean start — Session 2 fully complete
+- Clean start — Session 3 fully complete
 
 ## NO-AI Zone Log
 
@@ -29,6 +29,7 @@
 |---------|-------|-------|----------|
 | 1 | formatUserGreeting (null safety) | 7/10 | Wrong string literal ("Hey" vs "Hello"); `late` misused on local vars |
 | 2 | ThemeConfig (const constructor) | 10/10 | None — clean execution |
+| 3 | WordFrequency class (collections + map sorting) | 6/10 | Used Google for sort comparator; map rebuilt per method instead of constructor |
 
 ## Weekly Application Count (starts Session 61)
 
@@ -38,7 +39,8 @@
 
 ## Notes
 
-Session 2 complete. DSA: Contains Duplicate saved at dsa/arrays-hashing/contains-duplicate.md.
-Flutter: const/final/var saved at flutter/dart/const-final-var.md.
-NO-AI: 10/10 — corrections from Session 1 applied immediately.
-Key concept reinforced: identical() not hashCode for object identity. const = deep freeze + canonicalization.
+Session 3 complete. DSA: Valid Anagram saved at dsa/arrays-hashing/valid-anagram.md.
+Flutter: collections saved at flutter/dart/collections.md.
+NO-AI: 6/10 — used Google for .sort() comparator (violation); architectural issue: map rebuilt in every method.
+Key concept: sequential loops add (O(n)), nested loops multiply (O(n²)). O(1) space when map has fixed ceiling.
+Sort pattern to memorize: freq.entries.toList()..sort((a, b) => b.value.compareTo(a.value))
