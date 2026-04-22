@@ -12,7 +12,7 @@
 
 | Track | Last Completed | Next Up |
 |-------|---------------|---------|
-| DSA | Valid Anagram (Arrays & Hashing) — Done | Group Anagrams |
+| DSA | Group Anagrams (Arrays & Hashing) — Done | Top K Frequent Elements |
 | Flutter | Dart: collections (List, Map, Set, generics) — Done | Dart: functions, closures, typedefs |
 | Project | — | Polish dynamic_ui_renderer README (Session 5) |
 | System Design | Not started yet | — |
@@ -21,7 +21,7 @@
 
 ## Carried Forward
 
-- Clean start — Session 3 fully complete
+- Flutter: Dart functions, closures, typedefs — carry to Session 4 evening
 
 ## NO-AI Zone Log
 
