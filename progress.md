@@ -21,7 +21,8 @@
 
 ## Carried Forward
 
-- Flutter: Dart functions, closures, typedefs — carry to Session 4 evening
+- Flutter: Dart functions, closures, typedefs — carry to Session 5 morning
+- NO-AI challenge (Session 4) — skipped, carry to Session 5
 
 ## NO-AI Zone Log
 
@@ -44,3 +45,5 @@ Flutter: collections saved at flutter/dart/collections.md.
 NO-AI: 6/10 — used Google for .sort() comparator (violation); architectural issue: map rebuilt in every method.
 Key concept: sequential loops add (O(n)), nested loops multiply (O(n²)). O(1) space when map has fixed ceiling.
 Sort pattern to memorize: freq.entries.toList()..sort((a, b) => b.value.compareTo(a.value))
+
+Session 4 DSA-only. Group Anagrams ✓. Flutter + NO-AI carried — life got in the way, no guilt.
