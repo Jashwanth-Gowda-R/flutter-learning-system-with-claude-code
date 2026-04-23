@@ -13,7 +13,7 @@
 | Track | Last Completed | Next Up |
 |-------|---------------|---------|
 | DSA | Group Anagrams (Arrays & Hashing) — Done | Top K Frequent Elements |
-| Flutter | Dart: collections (List, Map, Set, generics) — Done | Dart: functions, closures, typedefs |
+| Flutter | Dart: functions, closures, typedefs — Done | Dart: OOP from scratch (classes, constructors, inheritance) |
 | Project | — | Polish dynamic_ui_renderer README (Session 5) |
 | System Design | Not started yet | — |
 | Interview Mocks | Not started yet | — |
@@ -21,8 +21,7 @@
 
 ## Carried Forward
 
-- Flutter: Dart functions, closures, typedefs — carry to Session 5 morning
-- NO-AI challenge (Session 4) — skipped, carry to Session 5
+- Clean start
 
 ## NO-AI Zone Log
 
@@ -31,6 +30,7 @@
 | 1 | formatUserGreeting (null safety) | 7/10 | Wrong string literal ("Hey" vs "Hello"); `late` misused on local vars |
 | 2 | ThemeConfig (const constructor) | 10/10 | None — clean execution |
 | 3 | WordFrequency class (collections + map sorting) | 6/10 | Used Google for sort comparator; map rebuilt per method instead of constructor |
+| 4 | applyAll (functions, closures, callable variables) | 6/10 | Could not start independently; put logic inside fn() call; blocker: fn(arg) calling syntax |
 
 ## Weekly Application Count (starts Session 61)
 
@@ -46,4 +46,7 @@ NO-AI: 6/10 — used Google for .sort() comparator (violation); architectural is
 Key concept: sequential loops add (O(n)), nested loops multiply (O(n²)). O(1) space when map has fixed ceiling.
 Sort pattern to memorize: freq.entries.toList()..sort((a, b) => b.value.compareTo(a.value))
 
-Session 4 DSA-only. Group Anagrams ✓. Flutter + NO-AI carried — life got in the way, no guilt.
+Session 4 DSA-only (morning). Session 4 evening: Flutter functions/closures/typedefs + NO-AI done.
+Flutter saved at flutter/dart/functions-closures-typedefs.md. NO-AI saved at no-ai/week-1/functions-closures.md.
+NO-AI score 6/10 — callable variable syntax was the blocker. Closures flagged for mock interview drill.
+Session 5: Clean start. DSA: Top K Frequent Elements. Flutter: OOP from scratch. Project: Polish dynamic_ui_renderer README.

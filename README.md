@@ -43,20 +43,59 @@ Core problem this solves: deep Flutter experience but AI-dependent for coding fr
 ## Workspace Layout
 
 ```
-ROADMAP.md                          Full visual plan with milestones
-progress.md                         Live session tracker — source of truth
-system_prompts/career_coach.md      Master coaching prompt
-dsa/blind75.md                      DSA problem list — strict order
-dsa/<concept>/<problem>.md          Per-problem DSA notes
-flutter/<category>/<topic>.md       Flutter concept files
-scratch/<week-N>/<topic>.md         NO-AI coding session files
-interview/<category>/<slug>.md      Mock interview Q&A
-interview/system-design/<slug>.md   System design session notes
-interview/behavioral/<slug>.md      STAR behavioral stories
-reviews/week-<N>.md                 Weekly review files
-projects/                           SurveyFlow and related project work
-everything-claude-code/             AI power layer (ECC system)
-myresume/                           Resume
+flutter-abroad-system/
+│
+├── progress.md                          Live session tracker — source of truth
+├── start.txt                            Paste this to resume the next session
+├── ROADMAP.md                           Full visual plan with milestones
+├── CLAUDE.md                            Instructions for Claude Code
+│
+├── system_prompts/
+│   └── career_coach.md                  Master coaching prompt
+│
+├── dsa/
+│   ├── blind75.md                       Problem list — strict top-to-bottom order
+│   └── <concept>/
+│       └── <problem>.md                 Per-problem notes (intuition, code, complexity)
+│
+├── flutter/                             Flutter learning — organised by category
+│   ├── dart/                            Dart language topics
+│   ├── rendering/                       Widget/Element/RenderObject trees (Phase B)
+│   ├── widgets/
+│   ├── state-management/                Riverpod, InheritedWidget, setState
+│   ├── navigation/                      GoRouter, Navigator
+│   ├── networking/                      Dio, Repository pattern
+│   ├── storage/                         Hive, Drift, offline-first
+│   ├── performance/
+│   ├── animations/
+│   ├── testing/
+│   ├── platform/
+│   └── firebase/
+│
+├── no-ai/
+│   └── week-<N>/
+│       └── <topic>.md                   NO-AI coding challenge files (zero AI, every session)
+│
+├── interview/                           Created at Session 15
+│   ├── flutter-technical/
+│   ├── dart-language/
+│   ├── architecture/
+│   ├── system-design/
+│   ├── behavioral/
+│   └── dsa-applied/
+│
+├── reviews/
+│   └── week-<N>.md                      Weekly Sunday reviews (starts Week 1)
+│
+├── projects/
+│   └── production_app/                  SurveyFlow Flutter project (built from Session 15)
+│
+├── memory/                              Claude behavioral preferences — git-tracked
+│   └── MEMORY.md                        Index of all memory files
+│
+├── myresume/                            Resume PDF
+├── career/                              career-ops submodule (active from Session 61)
+└── everything-claude-code/              ECC AI power layer — do not modify
 ```
 
 ---

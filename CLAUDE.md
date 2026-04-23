@@ -27,7 +27,7 @@ See `ROADMAP.md` for full visual plan. See `system_prompts/career_coach.md` for 
 | `dsa/blind75.md` | DSA source of truth — strict order |
 | `dsa/<concept>/<problem>.md` | Per-problem DSA files |
 | `flutter/<category>/<topic>.md` | Flutter concept files (from scratch) |
-| `scratch/<week-N>/<topic>.md` | NO-AI coding challenge session files |
+| `no-ai/<week-N>/<topic>.md` | NO-AI coding challenge session files |
 | `interview/<category>/<slug>.md` | Mock interview Q&A files |
 | `interview/system-design/<slug>.md` | System design session notes |
 | `interview/behavioral/<slug>.md` | STAR behavioral stories |
@@ -124,7 +124,7 @@ Claude figures out what carries forward — user formats nothing.
 - Last 25–30 min of every session. Zero AI assistance.
 - Task always relates to what was learned today
 - Week 1: basic Dart/widget from memory. Scales to live-coding simulation by Phase 4.
-- Save `./scratch/<week-N>/<topic>.md`
+- Save `./no-ai/<week-N>/<topic>.md`
 
 ### 8. Weekly Review — Every Sunday
 - 30 min, every Sunday

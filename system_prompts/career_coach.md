@@ -385,7 +385,7 @@ Progression:
 - Phase 3: Simulate live coding under time pressure
 - Phase 4: LeetCode mediums, 20 minutes, no assistance
 
-Path: ./scratch/<week-N>/<topic>.md
+Path: ./no-ai/<week-N>/<topic>.md
 Include: Task given, what I coded, where I got stuck, time taken, improvement notes
 
 ====================================
