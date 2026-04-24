@@ -4,7 +4,7 @@
 
 ## Current State
 
-- **Session:** 5 (in progress — DSA done, resume from Flutter)
+- **Session:** 5 (paused mid-session — Flutter done, resuming after dinner)
 - **Week:** 1
 - **Phase:** 1 — Restore & Build
 
@@ -13,7 +13,7 @@
 | Track | Last Completed | Next Up |
 |-------|---------------|---------|
 | DSA | Top K Frequent Elements (Arrays & Hashing) — Done | Product of Array Except Self |
-| Flutter | Dart: functions, closures, typedefs — Done | Dart: OOP from scratch (classes, constructors, inheritance) ← CARRY |
+| Flutter | Dart: OOP — classes, constructors (4 types), inheritance, abstract, interfaces, mixins ✓ | Dart: async/await, Future, Stream |
 | Project | — | Polish dynamic_ui_renderer README ← CARRY |
 | System Design | Not started yet | — |
 | Interview Mocks | Not started yet | — |
@@ -21,7 +21,6 @@
 
 ## Carried Forward
 
-- Flutter: Dart OOP from scratch (classes, constructors, inheritance)
 - Project: Polish dynamic_ui_renderer README
 - NO-AI challenge (Session 5 — not yet done)
 
@@ -52,4 +51,5 @@ Session 4 DSA-only (morning). Session 4 evening: Flutter functions/closures/type
 Flutter saved at flutter/dart/functions-closures-typedefs.md. NO-AI saved at no-ai/week-1/functions-closures.md.
 NO-AI score 6/10 — callable variable syntax was the blocker. Closures flagged for mock interview drill.
 Session 5: DSA only done. Top K Frequent Elements — bucket sort O(n). Saved at dsa/arrays-hashing/top-k-frequent-elements.md.
-Flutter OOP, Project README, NO-AI all carry to next session (Session 5 resume or Session 6).
+Session 5 (resumed): Flutter OOP done — classes, 4 constructor types, initializer list, inheritance, abstract classes, interfaces, mixins. Saved at flutter/dart/oop-classes-constructors-inheritance.md. Comprehension check passed. Key fix noted: named super constructor requires named param (super(brand: brand) not super(brand)).
+Project README + NO-AI still pending — carry to after-dinner continuation or Session 6.
