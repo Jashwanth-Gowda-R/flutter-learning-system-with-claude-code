@@ -4,7 +4,7 @@
 
 ## Current State
 
-- **Session:** 4 (next)
+- **Session:** 5 (in progress — DSA done, resume from Flutter)
 - **Week:** 1
 - **Phase:** 1 — Restore & Build
 
@@ -12,16 +12,18 @@
 
 | Track | Last Completed | Next Up |
 |-------|---------------|---------|
-| DSA | Group Anagrams (Arrays & Hashing) — Done | Top K Frequent Elements |
-| Flutter | Dart: functions, closures, typedefs — Done | Dart: OOP from scratch (classes, constructors, inheritance) |
-| Project | — | Polish dynamic_ui_renderer README (Session 5) |
+| DSA | Top K Frequent Elements (Arrays & Hashing) — Done | Product of Array Except Self |
+| Flutter | Dart: functions, closures, typedefs — Done | Dart: OOP from scratch (classes, constructors, inheritance) ← CARRY |
+| Project | — | Polish dynamic_ui_renderer README ← CARRY |
 | System Design | Not started yet | — |
 | Interview Mocks | Not started yet | — |
 | Behavioral Stories | Not started yet | — |
 
 ## Carried Forward
 
-- Clean start
+- Flutter: Dart OOP from scratch (classes, constructors, inheritance)
+- Project: Polish dynamic_ui_renderer README
+- NO-AI challenge (Session 5 — not yet done)
 
 ## NO-AI Zone Log
 
@@ -49,4 +51,5 @@ Sort pattern to memorize: freq.entries.toList()..sort((a, b) => b.value.compareT
 Session 4 DSA-only (morning). Session 4 evening: Flutter functions/closures/typedefs + NO-AI done.
 Flutter saved at flutter/dart/functions-closures-typedefs.md. NO-AI saved at no-ai/week-1/functions-closures.md.
 NO-AI score 6/10 — callable variable syntax was the blocker. Closures flagged for mock interview drill.
-Session 5: Clean start. DSA: Top K Frequent Elements. Flutter: OOP from scratch. Project: Polish dynamic_ui_renderer README.
+Session 5: DSA only done. Top K Frequent Elements — bucket sort O(n). Saved at dsa/arrays-hashing/top-k-frequent-elements.md.
+Flutter OOP, Project README, NO-AI all carry to next session (Session 5 resume or Session 6).
