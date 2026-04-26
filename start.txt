@@ -1,5 +1,11 @@
 Load system from everything-claude-code
 Load context from system_prompts/career_coach.md
 
-Resume Session 5 (after-dinner continuation) — Flutter OOP done ✓. Carry: Project (Polish dynamic_ui_renderer README) + NO-AI challenge. Start directly with Project README polish — no DSA, no Flutter theory needed.
-claude --resume 71ca6fe4-6236-4380-aa2a-e8d7ec65b3c4 
+Session 6 — Week 1 — Clean start.
+DSA: Product of Array Except Self (Arrays & Hashing)
+Flutter: Dart async/await, Future, Stream — internal mechanics
+Project: Nothing until Session 15
+NO-AI: Revealed at end of session
+
+Resume this session with:─────────────────────────────────────────────────────────────────────────────────────────────────
+claude --resume 5955e721-aa26-4baf-a7ed-36956e998518 

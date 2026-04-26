@@ -4,7 +4,7 @@
 
 ## Current State
 
-- **Session:** 5 (paused mid-session — Flutter done, resuming after dinner)
+- **Session:** 5 (complete)
 - **Week:** 1
 - **Phase:** 1 — Restore & Build
 
@@ -14,15 +14,14 @@
 |-------|---------------|---------|
 | DSA | Top K Frequent Elements (Arrays & Hashing) — Done | Product of Array Except Self |
 | Flutter | Dart: OOP — classes, constructors (4 types), inheritance, abstract, interfaces, mixins ✓ | Dart: async/await, Future, Stream |
-| Project | — | Polish dynamic_ui_renderer README ← CARRY |
+| Project | — | Session 15: Repo setup, Clean Architecture, Riverpod + GoRouter |
 | System Design | Not started yet | — |
 | Interview Mocks | Not started yet | — |
 | Behavioral Stories | Not started yet | — |
 
 ## Carried Forward
 
-- Project: Polish dynamic_ui_renderer README
-- NO-AI challenge (Session 5 — not yet done)
+- Clean start
 
 ## NO-AI Zone Log
 
@@ -32,6 +31,7 @@
 | 2 | ThemeConfig (const constructor) | 10/10 | None — clean execution |
 | 3 | WordFrequency class (collections + map sorting) | 6/10 | Used Google for sort comparator; map rebuilt per method instead of constructor |
 | 4 | applyAll (functions, closures, callable variables) | 6/10 | Could not start independently; put logic inside fn() call; blocker: fn(arg) calling syntax |
+| 5 | OOP Animal hierarchy | 8/10 | Mixin misuse — passed name as param + overrode in Bird; use `mixin X on Animal` instead |
 
 ## Weekly Application Count (starts Session 61)
 
@@ -52,4 +52,4 @@ Flutter saved at flutter/dart/functions-closures-typedefs.md. NO-AI saved at no-
 NO-AI score 6/10 — callable variable syntax was the blocker. Closures flagged for mock interview drill.
 Session 5: DSA only done. Top K Frequent Elements — bucket sort O(n). Saved at dsa/arrays-hashing/top-k-frequent-elements.md.
 Session 5 (resumed): Flutter OOP done — classes, 4 constructor types, initializer list, inheritance, abstract classes, interfaces, mixins. Saved at flutter/dart/oop-classes-constructors-inheritance.md. Comprehension check passed. Key fix noted: named super constructor requires named param (super(brand: brand) not super(brand)).
-Project README + NO-AI still pending — carry to after-dinner continuation or Session 6.
+Session 5 (after-dinner): Project README skipped (user decision). NO-AI done — 8/10. Key miss: mixin `on Animal` constraint not used; passed name as parameter instead. Saved at no-ai/week-1/oop-animal-hierarchy.md. Session 5 fully complete.

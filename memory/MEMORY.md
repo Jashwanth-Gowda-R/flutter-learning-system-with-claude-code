@@ -10,3 +10,4 @@
 - [Teaching Flow](feedback_teaching_flow.md) — after teaching, ask doubts first, then ask comprehension check questions
 - [Update start.txt](feedback_starttxt.md) — always update start.txt at session end alongside progress.md, every session
 - [Dual Memory Write](feedback_memory_dual_write.md) — always write memories to both ~/.claude/.../memory/ AND ./memory/ in repo
+- [Package README Decision](feedback_package_readme.md) — user skipped dynamic_ui_renderer README polish; do not bring it up again
