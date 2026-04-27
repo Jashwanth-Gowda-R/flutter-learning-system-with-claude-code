@@ -4,7 +4,7 @@
 
 ## Current State
 
-- **Session:** 5 (complete)
+- **Session:** 6 (in progress — DSA done, Flutter pending)
 - **Week:** 1
 - **Phase:** 1 — Restore & Build
 
@@ -12,8 +12,8 @@
 
 | Track | Last Completed | Next Up |
 |-------|---------------|---------|
-| DSA | Top K Frequent Elements (Arrays & Hashing) — Done | Product of Array Except Self |
-| Flutter | Dart: OOP — classes, constructors (4 types), inheritance, abstract, interfaces, mixins ✓ | Dart: async/await, Future, Stream |
+| DSA | Product of Array Except Self (Arrays & Hashing) — Done | Encode and Decode Strings |
+| Flutter | Dart: OOP — classes, constructors (4 types), inheritance, abstract, interfaces, mixins ✓ | Dart: async/await, Future, Stream — internal mechanics |
 | Project | — | Session 15: Repo setup, Clean Architecture, Riverpod + GoRouter |
 | System Design | Not started yet | — |
 | Interview Mocks | Not started yet | — |
@@ -21,7 +21,7 @@
 
 ## Carried Forward
 
-- Clean start
+- Flutter: async/await, Future, Stream (Session 6 — resume after office)
 
 ## NO-AI Zone Log
 
@@ -53,3 +53,5 @@ NO-AI score 6/10 — callable variable syntax was the blocker. Closures flagged 
 Session 5: DSA only done. Top K Frequent Elements — bucket sort O(n). Saved at dsa/arrays-hashing/top-k-frequent-elements.md.
 Session 5 (resumed): Flutter OOP done — classes, 4 constructor types, initializer list, inheritance, abstract classes, interfaces, mixins. Saved at flutter/dart/oop-classes-constructors-inheritance.md. Comprehension check passed. Key fix noted: named super constructor requires named param (super(brand: brand) not super(brand)).
 Session 5 (after-dinner): Project README skipped (user decision). NO-AI done — 8/10. Key miss: mixin `on Animal` constraint not used; passed name as parameter instead. Saved at no-ai/week-1/oop-animal-hierarchy.md. Session 5 fully complete.
+
+Session 6 (morning): DSA done — Product of Array Except Self. Both O(n) space and O(1) space solutions coded independently. Saved at dsa/arrays-hashing/product-of-array-except-self.md. Flutter (async/await, Future, Stream) pending — resuming after office.
